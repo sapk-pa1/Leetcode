@@ -1,0 +1,26 @@
+
+Problem statement: 
+1. Merging two string str1 and str2 
+2. sometimes the str1 or the str2 will be greater so the remaining string is appended to the end without making 
+comparision 
+
+
+Example 
+
+word1 = a b 
+word 2 = p q r s 
+
+merged = a p b q r s -> since there is only a and b remaininig 2 of the word2 is merged as it is without 
+making a comparision
+
+Possible solutions(Mine ): 
+
+1. one linear search through the smallest string one 
+2. append the remaining char from the largest string 
+
+
+Data Structure to be used: 
+List <- To append the char
+String <- To convert into the final merged string 
+
+
